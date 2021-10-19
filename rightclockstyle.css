@@ -1,0 +1,325 @@
+.clock-right {
+    margin: auto;
+    width: 50%;
+    
+}
+
+.clock-right1 {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 50%;
+ 
+}
+
+.outer-display {
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.ck-time {
+    position: absolute;
+    top: 45%;
+    left: 50px;
+    font-weight: bold;
+    color: #3d087b;
+    font-size: 18px;
+}
+
+#hours {
+    position: absolute;
+    top: 15%;
+    left: 120px;
+}
+
+.hr-place {
+    position: absolute;
+    top: 20%;
+    left: 140px;
+    z-index: 10;
+    color: #8A11BF;
+    font-size: 36px;
+}
+
+.h-place {
+    position: absolute;
+    top: 55%;
+    left: 130px;
+    z-index: 10;
+    color: #5F0089;
+    font-size: 23px;
+}
+
+.colon1 {
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    left: 207px;
+    font-weight: bold;
+    color: #3d087b;
+    font-size: 23px;
+}
+
+#minutes {
+    position: absolute;
+    top: 15%;
+    left: 220px;
+}
+
+.min-place {
+    position: absolute;
+    top: 20%;
+    left: 240px;
+    z-index: 10;
+    color: #8A11BF;
+    font-size: 36px;
+}
+
+.m-place {
+    position: absolute;
+    top: 55%;
+    left: 237px;
+    z-index: 10;
+    color: #5F0089;
+    font-size: 23px;
+}
+
+.colon2 {
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    left: 307px;
+    font-weight: bold;
+    color: #3d087b;
+    font-size: 23px;
+}
+
+#seconds {
+    position: absolute;
+    top: 15%;
+    left: 320px;
+}
+
+.sec-place {
+    position: absolute;
+    top: 20%;
+    left: 340px;
+    z-index: 10;
+    color: #8A11BF;
+    font-size: 36px;
+}
+
+.s-place {
+    position: absolute;
+    top: 55%;
+    left: 337px;
+    z-index: 10;
+    color: #5F0089;
+    font-size: 23px;
+}
+
+#AM {
+    position: absolute;
+    top: 15%;
+    left: 430px;
+}
+
+.am-place {
+    position: absolute;
+    top: 32%;
+    left: 443px;
+    z-index: 10;
+    color: #ffffff;
+    font-size: 42px;
+}
+
+.clock-display-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.display1 {
+    margin: auto;
+    width: 85%;
+    height: 12px;
+    background-color: #ffffff;
+    opacity: 0.71;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.display2 {
+    margin: auto;
+    width: 90%;
+    height: 25px;
+    background-color: #ffffff;
+    opacity: 0.22;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 10;
+}
+
+.clock-images {
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    color: #8E53F0;
+    font-family: 'Rubik', sans-serif;
+    top: 35px;
+    left: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1100px) {
+    .clock-right {
+        width: 85%;
+    }
+    .clock-right1 {
+        width: 85%;
+    }
+}
+
+@media (max-width: 650px) {
+    .clock-right {
+        width: 98%;
+    }
+    .clock-right1 {
+        width: 98%;
+    }
+}
+
+@media (max-width: 550px) {
+    .clock-right {
+        width: 99%;
+    }
+    .ck-time {
+        left: 10px;
+    }
+    #hours {
+        left: 60px;
+    }
+    .hr-place {
+        left: 80px;
+    }
+    .h-place {
+        left: 70px;
+    }
+    .colon1 {
+        left: 141px;
+    }
+    #minutes {
+        left: 150px;
+    }
+    .min-place {
+        left: 170px;
+    }
+    .m-place {
+        left: 167px;
+    }
+    .colon2 {
+        left: 231px;
+    }
+    #seconds {
+        left: 240px;
+    }
+    .sec-place {
+        left: 260px;
+    }
+    .s-place {
+        left: 255px;
+    }
+    #AM {
+        left: 330px;
+    }
+    .am-place {
+        left: 343px;
+    }
+}
+
+@media (max-width: 435px) {
+    .outer-display {
+        height: 100px;
+    }
+    .ck-time {
+        left: 10px;
+        font-size: 14px;
+    }
+    #hours {
+        top: 20%;
+        left: 60px;
+        width: 50px;
+        height: 60px;
+    }
+    .hr-place {
+        top: 25%;
+        left: 72px;
+        font-size: 20px;
+    }
+    .h-place {
+        top: 55%;
+        left: 63px;
+        font-size: 17px;
+    }
+    .colon1 {
+        top: 35%;
+        left: 113px;
+        font-size: 18px;
+    }
+    #minutes {
+        top: 20%;
+        left: 122px;
+        width: 50px;
+        height: 60px;
+    }
+    .min-place {
+        top: 25%;
+        left: 135px;
+        font-size: 20px;
+    }
+    .m-place {
+        top: 55%;
+        left: 128px;
+        font-size: 17px;
+    }
+    .colon2 {
+        top: 35%;
+        left: 175px;
+        font-size: 18px;
+    }
+    #seconds {
+        top: 20%;
+        left: 184px;
+        width: 50px;
+        height: 60px;
+    }
+    .sec-place {
+        top: 25%;
+        left: 197px;
+        font-size: 20px;
+    }
+    .s-place {
+        top: 55%;
+        left: 190px;
+        font-size: 17px;
+    }
+    #AM {
+        top: 20%;
+        left: 240px;
+        width: 50px;
+        height: 60px;
+    }
+    .am-place {
+        top: 36%;
+        left: 250px;
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    background-color: #3d087b;
+}
+
+.clock-container {
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+    .clock-container {
+        width: 98%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .clock-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
